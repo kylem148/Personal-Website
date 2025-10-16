@@ -7,7 +7,7 @@ const MarqueeItem = ({ images, from, to }) => {
       <motion.div
         initial={{ x: `${from}` }}
         animate={{ x: `${to}` }}
-        transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+        transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
         className="flex flex-shrink-0"
       >
         {images.map((image, index) => {

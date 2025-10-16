@@ -43,11 +43,11 @@ export default function App() {
         >
           <Title />
         </div>
-        <div className="absolute top-0 left-0 w-full  bg-neutral-800 text-white z-0 flex items-center justify-center text-4xl">
+        <div className="absolute top-0 left-0 w-full bg-[#121212] text-white z-0 flex items-center justify-center text-4xl">
           <AboutMe />
         </div>
       </div>
-      <main className="bg-neutral-800 text-white">
+      <main className=" text-white">
         <div className="">
           <CorePage />
         </div>

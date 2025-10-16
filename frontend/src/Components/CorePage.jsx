@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 const CorePage = () => {
   return (
-    <div className="text-amber-50 bg-neutral-800">
+    <div className="text-amber-50 bg-[#121212]">
       <Header />
       <Experince />
       <Footer />

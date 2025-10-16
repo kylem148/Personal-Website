@@ -2,7 +2,7 @@ import Skills from "./Skills";
 
 function AboutMe() {
   return (
-    <div className="flex flex-col h-screen w-screen overflow-hidden pt-20">
+    <div className="flex flex-col h-screen w-screen overflow-hidden items self-center items-center pt-20">
       <div className="flex-[2] flex flex-row">
         <div className="flex flex-col flex-1 justify-center items-center flex-wrap text-center">
           <h1 className="text-3xl font-bold mb-5">About me</h1>
@@ -18,7 +18,7 @@ function AboutMe() {
           />
         </div>
       </div>
-      <div className="flex-1 mt-10">
+      <div className="mt-10 pb-20">
         <Skills />
       </div>
     </div>
