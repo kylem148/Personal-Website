@@ -3,7 +3,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Title from "./Components/Title";
 import CorePage from "./Components/CorePage";
 import React, { useEffect, useRef } from "react";
-import { easeIn } from "framer-motion";
 import AboutMe from "./Components/AboutMe";
 
 gsap.registerPlugin(ScrollTrigger);
