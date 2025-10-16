@@ -2,25 +2,24 @@ import Skills from "./Skills";
 
 function AboutMe() {
   return (
-    <>
-      <div className="h-screen flex items-center justify-center overflow-hidden">
-        <div className="flex flex-col items-center justify-center gap-8">
-          <div className="relative flex  items-center justify-center">
-            <div className="text-2xl flex flex-col items-start justify-center mr-10">
-              <h2 className="font-bold pb-6">This is the about me section</h2>
-              <p>I am doing this and this and this</p>
-            </div>
-            <img
-              className="block w-[40vw] h-[40vw]"
-              src="./IDPhoto.png"
-              alt="Picture of Kyle Morgan"
-            />
-          </div>
-
-          <Skills />
+    <div className="flex flex-col h-screen w-screen overflow-hidden mt-20">
+      <div className="flex-1 flex">
+        <div className="flex flex-col flex-1 justify-center items-center flex-wrap text-center">
+          <h1 className="text-3xl font-bold mb-5">About me</h1>
+          <p className="text-[20px] p-1 text-center">
+            I am a freshamn at Cal Poly who builds online things
+          </p>
+        </div>
+        <div className=" flex-1 flex items-center justify-center">
+          <img
+            className="aspect-auto p-3 rounded-2xl"
+            src="./IDPhoto.png"
+            alt="Picture of Kyle Morgan"
+          />
         </div>
       </div>
-    </>
+      <div className="flex-1 mt-10">Skills</div>
+    </div>
   );
 }
 export default AboutMe;
